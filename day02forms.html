@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day02 forms</title>
+    <link rel="stylesheet" href="day02forms.css">
+</head>
+<body>
+<h1>Forms</h1>
+<form action="day01tags.html" target="_blank">
+    <label>First Name:</label>
+    <input type="text"><br><br>
+    <label>Last Name:&nbsp;</label>
+    <input type="text"><br><br>
+    <label>Email Id: &nbsp;&nbsp;&nbsp;&nbsp;</label>
+    <input type="email"><br><br>
+    <label>Password:&nbsp;&nbsp;&nbsp;</label>
+    <input type="password"value="password" id="myInput"><br>
+    <input type="checkbox" onclick="myFunction()">Show Password
+    <br><br>
+    <label>Courses:</label><br>
+        java<input type="checkbox">
+        python<input type="checkbox">
+        html<input type="checkbox">
+        css<input type="checkbox"><br><br>
+    <label>Gender:</label>
+        Male<input type="radio" name="gender">
+        Female<input type="radio" name="gender">
+        Not prefered to say<input type="radio" name="gender"><br><br>
+    <button type="submit">Login</button>
+    <button type="reset">Refresh</button>
+</form>
+</body>
+</html>
