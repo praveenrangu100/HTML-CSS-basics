@@ -1,0 +1,25 @@
+body{
+    background:linear-gradient(90deg, rgb(2, 0, 36) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    line-height: 10px;
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+form{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: brown;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+}
+input{
+ border-radius: 5px;
+}
+.div{
+    position: absolute;
+    margin-left: 620px;
+    width: 300px;
+}
