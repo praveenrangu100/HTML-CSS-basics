@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+}
+
+.fb{
+    text-align: center;
+    align-items: center;
+    position: absolute;
+}
+#dob{
+    text-align: left;
+    margin-left: 40px;
+}
+.lgc{
+    text-align: center;
+    align-items: center;
+    position: relative;
+    border: 0px solid black;
+    padding: 10px;
+    height: 600px;
+    width: 500px;
+    border-radius: 40px;
+    box-shadow: 0px 0px 20px gray;
+    background-color: #d9e8fb;
+}
+#gd{
+    text-align: left;
+    margin-left: 40px;
+}
+.btn{
+    content: '';
+    display: inline-block;
+    height: 36px;
+    width: 194px;
+    background: #00a400;
+    left: 0;
+    position: relative;
+    right: 0;
+    top: 0;
+    vertical-align: middle;
+}
+.para{
+    width: 399px;
+    height: 29.475px;
+    position: relative;
+    text-align: left;
+    font-size: 11px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.gender {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    justify-content: space-around;
+}
+
+.gen {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+ 
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .gen input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+
+  .gen:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+
+  .gen input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .gen input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .gen .checkmark:after {
+       top: 9px;
+      left: 9px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: white;
+  }
+
+#fname, #lname, #pwd, #email{
+    margin: 5px;
+    padding-left: 10px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 50px;
+    border-width: 0.5px;
+    box-shadow: 0px 0px 5px rgb(186, 186, 186) inset;
+}
+
+#fname {
+    margin-top: 30px;
+}
+#email ,#pwd{
+    width: 408px;
+}
+
+#subtxt {
+    font-size: 12px;
+}
+
+#submit {
+    width: 100%;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 50px;
+    border-width: 0px;
+    padding: 8px;
+    background-color: #00a400;
+}
+
