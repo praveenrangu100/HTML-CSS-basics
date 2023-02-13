@@ -1,0 +1,56 @@
+.custom-card-style{
+    margin: 20px ;
+    padding: 10px;
+    color: grey;
+    font-size: 10px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.footer{
+    text-align: center;
+    background: #4a4a4a;
+    color: #fff;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.f-col{
+    display: inline-block;
+    box-sizing: border-box;
+    min-height: 1px;
+}
+.f-col-100{
+    width: 100%;
+}
+.hm-text{
+    padding: 10px 18px 10px 20px;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+}
+.f-ul{
+    padding-left: 0px;
+}
+.text-white{
+    color: #ffff;
+}
+#FootWrapper{
+    display: block;
+}
+.con-item4{
+    align-items: center;
+    padding-top: 55px;
+}
+.con-item1{
+    align-items: center;
+    padding-top: 45px;
+}
+.con-item2{
+    align-items: center;
+    padding-top: 25px;
+}
+.bg-cc{
+    text-align: center;
+    align-content: center;
+    
+}
